@@ -1,0 +1,45 @@
+# =========================
+# CQU JobWise - .gitignore
+# =========================
+
+# ---- 用户隐私文件 ----
+resume.pdf
+*.pdf
+
+# ---- 环境变量与密钥 ----
+.env
+.streamlit/secrets.toml
+
+# ---- Python 临时文件 ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ---- 虚拟环境 ----
+venv/
+.venv/
+env/
+ENV/
+
+# ---- IDE 配置 ----
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ---- 爬虫生成的 CSV 缓存 ----
+cqu_jobfair.csv
+jobs_with_details.csv
+simple_announcements.csv
+full_job_database.csv
+
+# ---- 运行日志 ----
+job_matching_log.txt
+*.log
+
+# ---- 系统文件 ----
+.DS_Store
+Thumbs.db
+desktop.ini

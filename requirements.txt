@@ -1,0 +1,14 @@
+# CQU JobWise - 核心依赖清单
+# Python 3.9+
+
+# ---- Web 框架 ----
+streamlit>=1.30.0
+
+# ---- AI 接口 ----
+openai>=1.12.0
+
+# ---- PDF 解析 ----
+pdfplumber>=0.10.0
+
+# ---- 浏览器自动化（数据爬取） ----
+playwright>=1.40.0
